@@ -2,15 +2,15 @@ from typing import Text
 import requests
 from bs4 import BeautifulSoup
 
-# def open_html(path):
-#     with open(path, 'rb') as f:
-#         return f.read()  
+ def open_html(path):
+     with open(path, 'rb') as f:
+         return f.read()  
         
-#page = html = open_html('quotes.html') 
-#soup = BeautifulSoup(page, features="html.parser")
+page = html = open_html('quotes.html') 
+soup = BeautifulSoup(page, features="html.parser")
 
-page = requests.get("http://quotes.toscrape.com/")
-soup = BeautifulSoup(page.content, features="html.parser")
+#page = requests.get("http://quotes.toscrape.com/")
+#soup = BeautifulSoup(page.content, features="html.parser")
 
 i=0
 list_tags = []
