@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 arxiu buit modificat 3 conflicte a la vista
+=======
+arxiu buit modificat 2
+>>>>>>> 42d0391725cec74ba8f1c3ad4d06e3368ffbf280
